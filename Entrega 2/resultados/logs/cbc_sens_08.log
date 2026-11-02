@@ -1,0 +1,196 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /home/claude/vendor/pulp-src/pulp/solverdir/cbc/linux/64/cbc /tmp/ac723c45a5f54a498c2d88b1ea9585d5-pulp.mps -sec 300 -ratio 0.0025 -threads 1 -timeMode elapsed -branch -printingOptions all -solution /tmp/ac723c45a5f54a498c2d88b1ea9585d5-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 881 COLUMNS
+At line 4635 RHS
+At line 5512 BOUNDS
+At line 5747 ENDATA
+Problem MODEL has 876 rows, 819 columns and 2622 elements
+Coin0008I MODEL read with 0 errors
+seconds was changed from 1e+100 to 300
+ratioGap was changed from 0 to 0.0025
+threads was changed from 0 to 1
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 9.56784e+08 - 0.01 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 54 strengthened rows, 73 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 8 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0004I processed model has 666 rows, 696 columns (180 integer (180 of which binary)) and 2283 elements
+Cbc0038I Initial state - 162 integers unsatisfied sum - 34.8546
+Cbc0038I Pass   1: suminf.   17.20763 (59) obj. 1.17439e+09 iterations 275
+Cbc0038I Pass   2: suminf.    7.48135 (30) obj. 1.17682e+09 iterations 87
+Cbc0038I Pass   3: suminf.    4.16693 (13) obj. 1.15729e+09 iterations 27
+Cbc0038I Pass   4: suminf.    3.28984 (10) obj. 1.15452e+09 iterations 11
+Cbc0038I Pass   5: suminf.    0.00000 (0) obj. 1.15339e+09 iterations 20
+Cbc0038I Solution found of 1.15339e+09
+Cbc0038I Relaxing continuous gives 1.09395e+09
+Cbc0038I Before mini branch and bound, 17 integers at bound fixed and 174 continuous
+Cbc0038I Full problem 666 rows 696 columns, reduced to 535 rows 492 columns - 16 fixed gives 485, 467 - still too large
+Cbc0038I Full problem 666 rows 696 columns, reduced to 459 rows 449 columns - too large
+Cbc0038I Mini branch and bound did not improve solution (0.07 seconds)
+Cbc0038I Freeing continuous variables gives a solution of 1.09395e+09
+Cbc0038I Round again with cutoff of 1.08047e+09
+Cbc0038I Pass   6: suminf.   18.38495 (78) obj. 1.08047e+09 iterations 67
+Cbc0038I Pass   7: suminf.    8.90058 (29) obj. 1.08047e+09 iterations 139
+Cbc0038I Pass   8: suminf.    4.15750 (15) obj. 1.08047e+09 iterations 81
+Cbc0038I Pass   9: suminf.    2.68469 (19) obj. 1.08047e+09 iterations 33
+Cbc0038I Pass  10: suminf.    2.27326 (15) obj. 1.08047e+09 iterations 7
+Cbc0038I Pass  11: suminf.    0.00000 (0) obj. 1.08047e+09 iterations 27
+Cbc0038I Solution found of 1.08047e+09
+Cbc0038I Relaxing continuous gives 1.04888e+09
+Cbc0038I Before mini branch and bound, 18 integers at bound fixed and 191 continuous
+Cbc0038I Full problem 666 rows 696 columns, reduced to 522 rows 472 columns - 44 fixed gives 444, 424 - still too large
+Cbc0038I Full problem 666 rows 696 columns, reduced to 412 rows 412 columns - too large
+Cbc0038I Mini branch and bound did not improve solution (0.12 seconds)
+Cbc0038I Freeing continuous variables gives a solution of 1.04888e+09
+Cbc0038I Round again with cutoff of 1.03094e+09
+Cbc0038I Pass  12: suminf.   22.49378 (90) obj. 1.03094e+09 iterations 60
+Cbc0038I Pass  13: suminf.   10.96233 (44) obj. 1.03094e+09 iterations 122
+Cbc0038I Pass  14: suminf.    7.46296 (31) obj. 1.03094e+09 iterations 63
+Cbc0038I Pass  15: suminf.    6.11078 (32) obj. 1.03094e+09 iterations 25
+Cbc0038I Pass  16: suminf.    0.02233 (1) obj. 1.03094e+09 iterations 61
+Cbc0038I Pass  17: suminf.    0.00000 (0) obj. 1.03094e+09 iterations 2
+Cbc0038I Solution found of 1.03094e+09
+Cbc0038I Relaxing continuous gives 1.016e+09
+Cbc0038I Before mini branch and bound, 18 integers at bound fixed and 209 continuous
+Cbc0038I Full problem 666 rows 696 columns, reduced to 509 rows 453 columns - 42 fixed gives 436, 407 - still too large
+Cbc0038I Full problem 666 rows 696 columns, reduced to 403 rows 394 columns - too large
+Cbc0038I Mini branch and bound did not improve solution (0.17 seconds)
+Cbc0038I Freeing continuous variables gives a solution of 1.016e+09
+Cbc0038I Round again with cutoff of 9.98953e+08
+Cbc0038I Pass  18: suminf.   23.73174 (92) obj. 9.98953e+08 iterations 36
+Cbc0038I Pass  19: suminf.   14.35001 (58) obj. 9.98953e+08 iterations 113
+Cbc0038I Pass  20: suminf.   10.89979 (41) obj. 9.98953e+08 iterations 45
+Cbc0038I Pass  21: suminf.    9.76170 (47) obj. 9.98953e+08 iterations 16
+Cbc0038I Pass  22: suminf.    8.72176 (43) obj. 9.98953e+08 iterations 21
+Cbc0038I Pass  23: suminf.    0.03319 (1) obj. 9.98953e+08 iterations 100
+Cbc0038I Pass  24: suminf.    0.00000 (0) obj. 9.98953e+08 iterations 2
+Cbc0038I Solution found of 9.98953e+08
+Cbc0038I Relaxing continuous gives 9.96623e+08
+Cbc0038I Before mini branch and bound, 17 integers at bound fixed and 223 continuous
+Cbc0038I Full problem 666 rows 696 columns, reduced to 503 rows 437 columns - 40 fixed gives 432, 393 - still too large
+Cbc0038I Full problem 666 rows 696 columns, reduced to 398 rows 379 columns - too large
+Cbc0038I Mini branch and bound did not improve solution (0.22 seconds)
+Cbc0038I Freeing continuous variables gives a solution of 9.96623e+08
+Cbc0038I Round again with cutoff of 9.85389e+08
+Cbc0038I Pass  25: suminf.   25.08007 (101) obj. 9.85389e+08 iterations 68
+Cbc0038I Pass  26: suminf.   18.08353 (74) obj. 9.85389e+08 iterations 71
+Cbc0038I Pass  27: suminf.   14.28642 (56) obj. 9.85389e+08 iterations 50
+Cbc0038I Pass  28: suminf.   11.00905 (47) obj. 9.85389e+08 iterations 33
+Cbc0038I Pass  29: suminf.    9.41970 (44) obj. 9.85389e+08 iterations 32
+Cbc0038I Pass  30: suminf.    8.94055 (43) obj. 9.85389e+08 iterations 4
+Cbc0038I Pass  31: suminf.    0.88737 (16) obj. 9.85389e+08 iterations 69
+Cbc0038I Pass  32: suminf.    0.00951 (3) obj. 9.85389e+08 iterations 48
+Cbc0038I Pass  33: suminf.    0.00000 (0) obj. 9.85389e+08 iterations 7
+Cbc0038I Solution found of 9.85389e+08
+Cbc0038I Relaxing continuous gives 9.83475e+08
+Cbc0038I Before mini branch and bound, 16 integers at bound fixed and 233 continuous
+Cbc0038I Full problem 666 rows 696 columns, reduced to 497 rows 427 columns - 36 fixed gives 434, 388 - still too large
+Cbc0038I Full problem 666 rows 696 columns, reduced to 396 rows 369 columns - too large
+Cbc0038I Mini branch and bound did not improve solution (0.27 seconds)
+Cbc0038I Freeing continuous variables gives a solution of 9.83475e+08
+Cbc0038I Round again with cutoff of 9.73756e+08
+Cbc0038I Pass  34: suminf.   26.75743 (119) obj. 9.73756e+08 iterations 33
+Cbc0038I Pass  35: suminf.   21.77094 (92) obj. 9.73756e+08 iterations 69
+Cbc0038I Pass  36: suminf.   16.27598 (68) obj. 9.73756e+08 iterations 56
+Cbc0038I Pass  37: suminf.   13.84362 (59) obj. 9.73756e+08 iterations 21
+Cbc0038I Pass  38: suminf.   12.53524 (56) obj. 9.73756e+08 iterations 9
+Cbc0038I Pass  39: suminf.    4.87061 (31) obj. 9.73756e+08 iterations 43
+Cbc0038I Pass  40: suminf.    0.59918 (10) obj. 9.73756e+08 iterations 57
+Cbc0038I Pass  41: suminf.    0.01560 (1) obj. 9.73756e+08 iterations 40
+Cbc0038I Pass  42: suminf.    0.00000 (0) obj. 9.73756e+08 iterations 4
+Cbc0038I Solution found of 9.73756e+08
+Cbc0038I Relaxing continuous gives 9.72816e+08
+Cbc0038I Before mini branch and bound, 14 integers at bound fixed and 239 continuous
+Cbc0038I Full problem 666 rows 696 columns, reduced to 501 rows 425 columns - 35 fixed gives 440, 387 - still too large
+Cbc0038I Full problem 666 rows 696 columns, reduced to 411 rows 373 columns - too large
+Cbc0038I Mini branch and bound did not improve solution (0.31 seconds)
+Cbc0038I Freeing continuous variables gives a solution of 9.72816e+08
+Cbc0038I After 0.33 seconds - Feasibility pump exiting with objective of 9.72816e+08 - took 0.29 seconds
+Cbc0012I Integer solution of 9.7281578e+08 found by feasibility pump after 0 iterations and 0 nodes (0.33 seconds)
+Cbc0031I 154 added rows had average density of 6.5519481
+Cbc0013I At root node, 154 cuts changed objective from 9.5917682e+08 to 9.6352255e+08 in 18 passes
+Cbc0014I Cut generator 0 (Probing) - 252 row cuts average 2.0 elements, 0 column cuts (0 active)  in 0.053 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 121 row cuts average 12.5 elements, 0 column cuts (0 active)  in 0.045 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.006 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 289 row cuts average 7.3 elements, 0 column cuts (0 active)  in 0.009 seconds - new frequency is 1
+Cbc0014I Cut generator 5 (FlowCover) - 10 row cuts average 4.6 elements, 0 column cuts (0 active)  in 0.007 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 297 row cuts average 75.7 elements, 0 column cuts (0 active)  in 0.057 seconds - new frequency is -100
+Cbc0010I After 0 nodes, 1 on tree, 9.7281578e+08 best solution, best possible 9.6352255e+08 (1.08 seconds)
+Cbc0012I Integer solution of 9.6956127e+08 found by heuristic after 6233 iterations and 139 nodes (3.73 seconds)
+Cbc0012I Integer solution of 9.6941988e+08 found by heuristic after 7475 iterations and 271 nodes (3.94 seconds)
+Cbc0012I Integer solution of 9.6857792e+08 found by heuristic after 20428 iterations and 660 nodes (5.66 seconds)
+Cbc0012I Integer solution of 9.6857655e+08 found by heuristic after 21925 iterations and 748 nodes (5.90 seconds)
+Cbc0012I Integer solution of 9.6841658e+08 found by heuristic after 22732 iterations and 807 nodes (6.07 seconds)
+Cbc0010I After 1000 nodes, 240 on tree, 9.6841658e+08 best solution, best possible 9.6352255e+08 (6.90 seconds)
+Cbc0010I After 2000 nodes, 608 on tree, 9.6841658e+08 best solution, best possible 9.6352255e+08 (11.99 seconds)
+Cbc0010I After 3000 nodes, 1034 on tree, 9.6841658e+08 best solution, best possible 9.6352255e+08 (17.60 seconds)
+Cbc0012I Integer solution of 9.6806773e+08 found by heuristic after 97299 iterations and 3025 nodes (17.67 seconds)
+Cbc0012I Integer solution of 9.6805397e+08 found by heuristic after 97394 iterations and 3034 nodes (17.70 seconds)
+Cbc0012I Integer solution of 9.6805035e+08 found by heuristic after 97515 iterations and 3050 nodes (17.73 seconds)
+Cbc0012I Integer solution of 9.6802144e+08 found by heuristic after 97582 iterations and 3054 nodes (17.74 seconds)
+Cbc0012I Integer solution of 9.6784253e+08 found by heuristic after 97789 iterations and 3074 nodes (17.78 seconds)
+Cbc0010I After 4000 nodes, 1159 on tree, 9.6784253e+08 best solution, best possible 9.6352255e+08 (23.01 seconds)
+Cbc0012I Integer solution of 9.6783231e+08 found by heuristic after 160605 iterations and 4598 nodes (26.09 seconds)
+Cbc0010I After 5000 nodes, 1535 on tree, 9.6783231e+08 best solution, best possible 9.6352255e+08 (28.09 seconds)
+Cbc0012I Integer solution of 9.6780068e+08 found by heuristic after 181468 iterations and 5161 nodes (29.19 seconds)
+Cbc0010I After 6000 nodes, 1841 on tree, 9.6780068e+08 best solution, best possible 9.6352255e+08 (33.38 seconds)
+Cbc0010I After 7000 nodes, 2210 on tree, 9.6780068e+08 best solution, best possible 9.6352255e+08 (38.24 seconds)
+Cbc0010I After 8000 nodes, 2427 on tree, 9.6780068e+08 best solution, best possible 9.6352255e+08 (42.42 seconds)
+Cbc0010I After 9000 nodes, 2743 on tree, 9.6780068e+08 best solution, best possible 9.6352255e+08 (47.47 seconds)
+Cbc0010I After 10000 nodes, 3083 on tree, 9.6780068e+08 best solution, best possible 9.6352255e+08 (51.81 seconds)
+Cbc0010I After 11000 nodes, 3372 on tree, 9.6780068e+08 best solution, best possible 9.6352255e+08 (55.61 seconds)
+Cbc0010I After 12000 nodes, 3870 on tree, 9.6780068e+08 best solution, best possible 9.6425389e+08 (92.03 seconds)
+Cbc0010I After 13000 nodes, 4362 on tree, 9.6780068e+08 best solution, best possible 9.6435175e+08 (112.95 seconds)
+Cbc0010I After 14000 nodes, 4853 on tree, 9.6780068e+08 best solution, best possible 9.6435175e+08 (121.74 seconds)
+Cbc0010I After 15000 nodes, 5346 on tree, 9.6780068e+08 best solution, best possible 9.6441056e+08 (135.53 seconds)
+Cbc0010I After 16000 nodes, 5840 on tree, 9.6780068e+08 best solution, best possible 9.6445113e+08 (148.00 seconds)
+Cbc0010I After 17000 nodes, 6326 on tree, 9.6780068e+08 best solution, best possible 9.6448002e+08 (160.76 seconds)
+Cbc0010I After 18000 nodes, 6814 on tree, 9.6780068e+08 best solution, best possible 9.6448002e+08 (168.54 seconds)
+Cbc0010I After 19000 nodes, 7307 on tree, 9.6780068e+08 best solution, best possible 9.6450708e+08 (179.65 seconds)
+Cbc0010I After 20000 nodes, 7799 on tree, 9.6780068e+08 best solution, best possible 9.6453107e+08 (190.44 seconds)
+Cbc0010I After 21000 nodes, 8286 on tree, 9.6780068e+08 best solution, best possible 9.6454971e+08 (200.87 seconds)
+Cbc0010I After 22000 nodes, 8769 on tree, 9.6780068e+08 best solution, best possible 9.6454971e+08 (206.64 seconds)
+Cbc0010I After 23000 nodes, 9256 on tree, 9.6780068e+08 best solution, best possible 9.6456844e+08 (217.39 seconds)
+Cbc0010I After 24000 nodes, 9741 on tree, 9.6780068e+08 best solution, best possible 9.6458646e+08 (228.21 seconds)
+Cbc0010I After 25000 nodes, 10235 on tree, 9.6780068e+08 best solution, best possible 9.6460127e+08 (238.13 seconds)
+Cbc0010I After 26000 nodes, 10716 on tree, 9.6780068e+08 best solution, best possible 9.6461652e+08 (248.71 seconds)
+Cbc0010I After 27000 nodes, 11197 on tree, 9.6780068e+08 best solution, best possible 9.6461652e+08 (255.02 seconds)
+Cbc0010I After 28000 nodes, 11675 on tree, 9.6780068e+08 best solution, best possible 9.6461652e+08 (261.13 seconds)
+Cbc0012I Integer solution of 9.6762919e+08 found by heuristic after 1538295 iterations and 28012 nodes (261.19 seconds)
+Cbc0012I Integer solution of 9.6692081e+08 found by heuristic after 1541723 iterations and 28184 nodes (262.27 seconds)
+Cbc0030I Thread 0 used 28186 times,  waiting to start 3.7700658, 259.68411 cpu time, 179927 locks, 2.9463706 locked, 0.029686213 waiting for locks
+Cbc0030I Main thread 259.86032 waiting for threads,  56446 locks, 0.10996032 locked, 0.014408827 waiting for locks
+Cbc0011I Exiting as integer gap of 2304292.5 less than 1e-10 or 0.25%
+Cbc0001I Search completed - best objective 966920808.7589762, took 1541731 iterations and 28186 nodes (262.65 seconds)
+Cbc0032I Strong branching done 5808 times (87402 iterations), fathomed 62 nodes and fixed 316 variables
+Cbc0035I Maximum depth 75, 1033 variables fixed on reduced cost
+Cuts at root node changed objective from 9.59177e+08 to 9.63523e+08
+Probing was tried 15010 times and created 98035 cuts of which 0 were active after adding rounds of cuts (20.361 seconds)
+Gomory was tried 14988 times and created 52645 cuts of which 0 were active after adding rounds of cuts (12.256 seconds)
+Knapsack was tried 36 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.012 seconds)
+Clique was tried 36 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.003 seconds)
+MixedIntegerRounding2 was tried 14988 times and created 103458 cuts of which 0 were active after adding rounds of cuts (6.522 seconds)
+FlowCover was tried 36 times and created 20 cuts of which 0 were active after adding rounds of cuts (0.015 seconds)
+TwoMirCuts was tried 36 times and created 594 cuts of which 0 were active after adding rounds of cuts (0.113 seconds)
+ZeroHalf was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.003 seconds)
+ImplicationCuts was tried 1605 times and created 6235 cuts of which 0 were active after adding rounds of cuts (0.047 seconds)
+
+Result - Optimal solution found (within gap tolerance)
+
+Objective value:                966920808.75897622
+Lower bound:                    964616516.216
+Gap:                            0.00
+Enumerated nodes:               28186
+Total iterations:               1541731
+Time (CPU seconds):             262.38
+Time (Wallclock seconds):       262.68
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       262.39   (Wallclock seconds):       262.68
+
