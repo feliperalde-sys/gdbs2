@@ -1,8 +1,0 @@
-# Entrega 2 — Python 3.11 o superior
-# Ejecutar desde la raíz:  pip install -r requirements.txt  &&  python run_entrega2.py
-pandas==3.0.5
-numpy==2.5.3
-matplotlib==3.11.2
-PuLP==2.9.0          # incluye el solver CBC (COIN-OR)
-# Opcional, solo para abrir los notebooks de forma interactiva:
-# jupyter
